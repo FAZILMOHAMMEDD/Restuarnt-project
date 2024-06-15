@@ -1,0 +1,66 @@
+.about-1>h1{
+  color: rgb(244, 244, 27);
+  text-align: center;
+}
+.about-text{
+  color: white;
+}
+.about-image{
+  display: flex;
+  border: 2px solid rgb(37, 37, 22);
+  background-color: rgb(31, 33, 33);
+ height: 320px;
+}
+.about-images-1>img{
+width: 450px;
+height: 250px;
+}
+.about-text>button{
+  position: relative;
+  top:5px;
+  background-color: yellow;
+  color: black;
+}
+.about-images-1{
+  padding: 20px;
+}
+.about-text>h2{
+  margin-left:6px;
+  padding: 10px;
+ }
+ .about-container{
+  margin-top: 30px;
+}
+.about-text>p{
+  color: wheat;
+}
+@media screen and (max-width:600px)
+{
+  .about-container{
+    margin-top: 40px;
+  }
+  .about-image{
+    display: flex;
+    flex-direction: column;
+    height: 640px;
+    margin-top: 10px;
+  }
+  #cup{
+    display: none;
+  }
+  .about-images-1>img{
+    width: 320px;
+    height: 250px;
+    }
+    .about-text>h2{
+     margin-left:8px;
+     padding: 10px;
+    }
+}
+@media screen and (max-width:1100px)
+{
+  .about-image{
+    height: 420px;
+  }
+
+}

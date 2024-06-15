@@ -1,0 +1,44 @@
+.review{
+ position: relative;
+  bottom: 5px;
+  padding:10px;
+}
+.review>h1{
+  text-align: center;
+ color: yellow;
+}
+.review>h3{
+margin-top: 15px;
+color: rgb(210, 237, 6);
+margin-left: 15px;
+}
+.review-container-1>img{
+ width: 50px;
+ background-color: none;
+}
+.review-container-1{
+  border: 1px solid black;
+  width:300px;
+  padding:10px;
+  margin:10px;
+  border: 1px solid yellow;
+  background-color: rgb(8, 9, 9);
+  color: white;
+}
+.review-container-1>h4,p{
+  padding: 5px;
+}
+.review-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 5px;
+}
+@media screen and (max-width:500px)
+{
+  .review-container{
+   display: flex;
+   flex-wrap: wrap;
+   padding:10px;
+  
+  }
+}

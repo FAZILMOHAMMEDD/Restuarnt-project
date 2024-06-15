@@ -1,0 +1,33 @@
+.images>img{
+  width: 100%;
+  height:530px;
+}
+.name-container{
+  position: relative;
+}
+.name{
+  position: absolute;
+  bottom:400px;
+  left:80px;
+  color: rgb(16, 239, 105);
+}
+@media screen and (max-width:600px)
+ {
+  .images>img{
+    width: 100%;
+    height:200px;
+  }
+  .name{
+    position: absolute;
+    bottom:150px;
+    left:20px;
+    color: rgb(15, 200, 89);
+    font-size: 12px;
+  }
+}
+@media screen and (min-width:1000px)
+{
+  .images>img{
+    width: 100%;
+  }
+}

@@ -1,0 +1,52 @@
+.contact-1>h1{
+  color: yellow;
+  text-align: center;
+}
+.contact-container{
+  margin-top: 10px;
+}
+.contact-map{
+  display: flex;
+  border: 2px solid rgb(37, 37, 22);
+  background-color: rgb(31, 33, 33);
+}
+.contact-map-1{
+  margin-left: 20px;
+}
+.contact-map-2>h1{
+   text-align: center;
+   color: rgb(214, 17, 17);
+}
+.contact-map-2{
+margin-left: 150px;
+}
+.whole{
+  margin-top: 10px;
+}
+.number{
+  margin-top: 50px;
+}
+.password{
+  margin-top:40px;
+}
+input{
+  border: 2px solid yellow;
+}
+.contact-map{
+  margin-top: 10px;
+}
+@media screen and (max-width:600px)
+{
+  .contact-map{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-map-1>iframe{
+    width: 320px;
+    height: 300px;
+  }
+  .contact-map-2{
+  
+  margin: 5px;
+  }
+}
